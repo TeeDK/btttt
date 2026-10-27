@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ | Phạm Đình Khương - 231A011185</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>body { font-family: 'Plus Jakarta Sans', sans-serif; }</style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
+
+    <!-- Header Navbar -->
+    <header class="bg-white/95 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3">
+                <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-indigo-600 via-purple-500 to-sky-500 text-white font-black text-xl flex items-center justify-center shadow-md">PK</div>
+                <div>
+                    <span class="font-extrabold text-slate-900 text-lg">C++ Academy & Testing</span>
+                    <p class="text-xs text-slate-500">Hệ thống Dạy & Thi Lập trình C++</p>
+                </div>
+            </a>
+            
+            <!-- Menu góc trên bên phải -->
+            <nav class="flex items-center gap-2">
+                <a href="bai44.html" class="px-4 py-2 rounded-xl text-xs font-bold bg-sky-500 text-white hover:bg-sky-600 transition-all flex items-center gap-1.5 shadow-xs">
+                    <i data-lucide="file-check-2" class="w-4 h-4"></i> Kiểm Tra & Thi
+                </a>
+                <a href="bai 43.html" class="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all flex items-center gap-1.5">
+                    <i data-lucide="book-open" class="w-4 h-4"></i> Kết quả Bài 43
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-10 flex-grow w-full space-y-8">
+        
+        <!-- Khối Thông tin Sinh viên -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm flex flex-col md:flex-row items-center gap-8">
+            <div class="w-36 h-36 rounded-3xl overflow-hidden border-4 border-white shadow-md bg-slate-100 flex-shrink-0">
+                <img src="https://scontent.fsgn5-15.fna.fbcdn.net/v/t39.30808-1/583923053_1187032030036283_6643598896699324605_n.jpg?stp=dst-jpg_tt6&cstp=mx1004x996&ctp=s200x200&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeFiUikvP1fdr5PggpoO1hPYRrkc0-TxxBNGuRzT5PHEE7eh3LUguVkGV7I85qBSnXRNsjCUEjH11-tD_x7xtwEp&_nc_ohc=sUadjVm9MCAQ7kNvwGaNmV7&_nc_oc=Adp2mewapCwoE5UGk_irBP1sdUfcuA3xdem0CEaC4B_8hsglnw1G6tqX8hJ-1IH24qUnmJKy8Bggtgyltr6KnfQL&_nc_zt=24&_nc_ht=scontent.fsgn5-15.fna&_nc_gid=_0afuVHMVw1YGygf_4WvOg&_nc_ss=7b2a8&oh=00_AQP0QA6MKhyR5hNEKtXahftvoKAG0eIt9wLG4kmO_1ng_Q&oe=6AE54574" alt="Phạm Đình Khương" class="w-full h-full object-cover" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80';">
+            </div>
+            
+            <div class="space-y-3 text-center md:text-left">
+                <span class="px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-xs font-bold">Sinh viên thực hiện</span>
+                <h1 class="text-3xl font-extrabold text-slate-900">PHẠM ĐÌNH KHƯƠNG</h1>
+                <p class="text-base font-bold text-indigo-600">MSSV: 231A011185</p>
+                <p class="text-sm text-slate-600 leading-relaxed max-w-xl">
+                    Chào mừng thầy cô và các bạn đến với Hệ thống Website Hỗ trợ Dạy & Học Lập trình C++. Hệ thống đã bổ sung phân hệ <strong>Kiểm tra, Thi và Chấm điểm trực tiếp tự động</strong> theo bộ Testcase.
+                </p>
+            </div>
+        </div>
+
+        <!-- Các Khối Menu Điều Hướng -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+            <!-- Card 1: Chức năng Thi & Kiểm Tra Trực Tiếp -->
+            <a href="exam.html" class="group bg-gradient-to-br from-indigo-600 via-purple-600 to-indigo-700 rounded-3xl p-6 text-white shadow-md hover:shadow-xl transition-all space-y-4">
+                <div class="flex justify-between items-center">
+                    <span class="px-3 py-1 rounded-full bg-white/20 text-xs font-bold">Mới bổ sung</span>
+                    <i data-lucide="award" class="w-6 h-6 text-yellow-300"></i>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Phòng Kiểm Tra, Thi & Chấm Điểm</h3>
+                    <p class="text-xs text-indigo-100 mt-1">Hệ thống chọn bài tập theo mức Dễ/TB/Khó, sinh viên nộp bài & nhận điểm tự động theo bộ 5 Testcases (2đ/test).</p>
+                </div>
+                <div class="text-xs font-bold text-white flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                    Vào phòng Thi & Kiểm tra ngay <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </div>
+            </a>
+
+            <!-- Card 2: Kết quả Bài tập 43 (Cũ) -->
+            <a href="bai 43.html" class="group bg-gradient-to-br from-sky-500 to-cyan-600 rounded-3xl p-6 text-white shadow-md hover:shadow-xl transition-all space-y-4">
+                <div class="flex justify-between items-center">
+                    <span class="px-3 py-1 rounded-full bg-white/20 text-xs font-bold">Bài tập 43</span>
+                    <i data-lucide="book-open" class="w-6 h-6 text-cyan-200"></i>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Hệ Thống Bài Học C++ (Bài 43)</h3>
+                    <p class="text-xs text-sky-100 mt-1">Truy cập lại hệ thống 6 Chương bài giảng C++, lý thuyết mẫu và phòng thực hành cũ.</p>
+                </div>
+                <div class="text-xs font-bold text-white flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                    Xem Bài 43 <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </div>
+            </a>
+
+        </div>
+
+    </main>
+
+    <footer class="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500">
+        © 2026 PHẠM ĐÌNH KHƯƠNG - MSSV: 231A011185
+    </footer>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
